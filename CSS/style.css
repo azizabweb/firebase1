@@ -1,0 +1,182 @@
+a {
+    font-size: 40px;
+}
+
+.first {
+    font-size: 80px;
+}
+
+.navbar-item {
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.corse-header {
+    color: white;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: rgba(114, 110, 110, 0.62);
+    background-image: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, black, black 70.71%),
+        linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+.fleximg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+
+}
+
+.singleimg {
+    margin: 20px;
+
+}
+
+.navimg {
+    height: 350px;
+    color: azure;
+    font-size: 80px;
+    background-image: url(../RES/pic1.png);
+}
+
+input {
+    display: block;
+}
+
+#text {
+    height: 200px;
+    width: 400px;
+}
+
+#singleimg1 {
+    background-image: url(../RES/pic2.png);
+    width: 260px;
+    align-items: center;
+    height: 150px;
+}
+
+.singleimg:hover {
+    opacity: 0.5;
+}
+
+#btn1 {
+    margin-top: 50px;
+}
+
+#singleimg2 {
+    background-image: url(../RES/pic3.png);
+    width: 260px;
+    height: 150px;
+    align-items: center;
+}
+
+#btn2 {
+    margin-top: 50px;
+}
+
+#singleimg3 {
+    background-image: url(../RES/pic4.png);
+    width: 260px;
+    align-items: center;
+    height: 150px;
+}
+
+#btn3 {
+    margin-top: 50px;
+}
+
+#singleimg4 {
+    background-image: url(../RES/pic5.png);
+    width: 260px;
+    align-items: center;
+    height: 150px;
+}
+
+#btn4 {
+    margin-top: 50px;
+}
+
+#singleimg5 {
+    background-image: url(../RES/pic6.png);
+    width: 260px;
+    align-items: center;
+    height: 150px;
+}
+
+#btn5 {
+    margin-top: 50px;
+}
+
+#singleimg6 {
+    background-image: url(../RES/pic7.png);
+    width: 260px;
+    align-items: center;
+    height: 150px;
+}
+
+#btn6 {
+    margin-top: 50px;
+}
+
+#singleimg7 {
+    background-image: url(../RES/pic8.png);
+    width: 260px;
+    align-items: center;
+    height: 150px;
+}
+
+#btn7 {
+    margin-top: 50px;
+}
+
+#singleimg8 {
+    background-image: url(../RES/pic9.png);
+    width: 260px;
+    align-items: center;
+    height: 150px;
+}
+
+#btn8 {
+    margin-top: 50px;
+}
+
+
+
+#myModal {
+    display: none;
+}
+
+.singleb {
+    display: none;
+}
+
+.label-carousel {
+    margin-top: -200px !important;
+}
+
+.d-block {
+    height: 600px;
+}
+
+.contact-form {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.form-row {
+    margin-top: 20px;
+    margin-left: 350px;
+}

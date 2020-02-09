@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Abweb final checkpoint</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  
+
+  <script src="JS/courses.js"></script>
+  <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+  <div align="center">
+    <ul>
+      <li class="navbar-item"> <a href="index.html">Home </a> </li>
+      <li class="navbar-item"><a href="courses.html">Courses</a></li>
+      <li class="navbar-item"><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <hr>
+
+  <center>
+    <div class="navimg">
+      Courses
+    </div>
+  </center>
+  <div>
+    <h1 class="corse-header">Courses</h1 class="corse-header" corse-header>
+    <div class="fleximg">
+
+
+      <div class="singleimg" id="singleimg1"><button class="singleb" id="btn1">view more</button></div>
+      <div class="singleimg" id="singleimg2"><button class="singleb" id="btn2">view more</button></div>
+      <div class="singleimg" id="singleimg3"><button class="singleb" id="btn3">view more</button></div>
+      <div class="singleimg" id="singleimg4"><button class="singleb" id="btn4">view more</button></div>
+      <div class="singleimg" id="singleimg5"><button class="singleb" id="btn5">view more</button></div>
+      <div class="singleimg" id="singleimg6"><button class="singleb" id="btn6">view more</button></div>
+      <div class="singleimg" id="singleimg7"><button class="singleb" id="btn7">view more</button></div>
+      <div class="singleimg" id="singleimg8"><button class="singleb" id="btn8">view more</button></div>
+
+    </div>
+    <center>
+
+      <h1 class="corse-header" "center">Feedback</h1>
+      <button onclick="makeitbold()">b</button>
+      <button onclick="makeititalic()">i</button>
+      <button onclick="makeitunderline()">underline</button>
+      <select id="selectsize" onchange="changesize()">
+        <option>20px</option>
+        <option>30px</option>
+        <option>40px</option>
+      </select>
+      <select id="selecttype" onchange="fontfamily()">
+        <option>arial</option>
+        <option>verdana</option>
+        <option>geneva</option>
+      </select>
+      <form>
+        <textarea id="text" cols="30" rows="5">Hello World</textarea>
+    </center>
+    <div id="myModal">This is a modal</div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
